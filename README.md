@@ -22,7 +22,7 @@ Este é um projeto desenvolvido como parte do desafio do **BootCamp Oracle Next 
 
 1. Clone este repositório em sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/sorteio-amigo-secreto.git
+   git clone https://github.com/fabioamoreira/amigo-sercreto.github.io.git
 2. Acesse o link:
    https://fabioamoreira.github.io/amigo-sercreto.github.io/
    
