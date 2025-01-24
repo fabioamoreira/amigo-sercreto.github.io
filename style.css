@@ -183,3 +183,64 @@ ul {
 .button-clean:hover {
     background-color: var(--color-button-clean-hover);
 }
+
+/* Mobile */
+
+
+@media (max-width: 768px) {
+
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .input-name, 
+    .button-add {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .button-container {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .button-draw, .button-clean {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .button-draw img, .button-clean img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* Estilos gerais para imagens */
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block; 
+}
+
+
+@media (max-width: 768px) {
+    img {
+        max-width: 60%; 
+        margin: 0 auto; 
+    }
+}
